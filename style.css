@@ -1,0 +1,180 @@
+/* font start  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+/* font end  */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: aliceblue;
+}
+
+header {
+  background: #562eff;
+}
+
+/* nav css  */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 23px 265px;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 24px;
+}
+.nav-logo img {
+  width: 40.42px;
+  height: 51px;
+}
+
+.nav-menu {
+}
+.nav-menu ul {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  list-style-type: none;
+}
+.nav-menu ul a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* nav css  end */
+
+/* section start */
+
+section {
+  margin: 36px 285px;
+  background: #ffffff;
+  border-radius: 5px;
+  width: 870px;
+  padding: 33px;
+}
+.heading {
+  font-weight: 500;
+  font-size: 24px;
+  color: #562eff;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.player {
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.player img {
+  width: 56px;
+  height: 56px;
+}
+
+.player-tiitle {
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+
+/* blog css  */
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.blog {
+  display: flex;
+  gap: 16px;
+}
+.blog {
+  text-decoration: none;
+}
+.blog img {
+  width: 177px;
+  height: 117px;
+}
+
+.blog-tiitle {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+.author {
+  font-weight: 400;
+  font-size: 16px;
+  color: #9f9f9f;
+}
+
+.course-info {
+  display: flex;
+}
+
+.course-img img {
+  width: 224px;
+  height: 104px;
+}
+
+.course-tittle {
+  font-weight: 500px;
+  font-size: 20.0336px;
+  color: #1e1e1e;
+}
+
+.course-info {
+  display: flex;
+}
+.rating {
+  align-items: center;
+  gap: 5px;
+}
+
+.rating img {
+  width: 12.39px;
+  height: 11.81px;
+}
+
+.course-hr {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 600;
+  font-size: 14.6913px;
+}
+.course-hr img {
+  width: 16.69px;
+  height: 16.69px;
+}
+
+.section-course {
+  margin: 36px 285px;
+  background: #ffffff;
+  border-radius: 5px;
+  width: 870px;
+  padding: 33px;
+}
+
+.course {
+  display: flex;
+}
+
+.fa-star.filled {
+  color: #ffc014;
+}
+
+.fa-star.empty {
+  color: #aeaeae;
+}
+
+
